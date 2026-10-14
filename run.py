@@ -5,11 +5,11 @@ import argparse
 import os
 from pathlib import Path
 
-from redneedle.config import PRESETS
-from redneedle.target import create_target
-from redneedle.executor import ExecutionEngine
-from redneedle.judge import Judge, LLMJudge
-from redneedle.reporter import HTMLReporter
+from promptfort.config import PRESETS
+from promptfort.target import create_target
+from promptfort.executor import ExecutionEngine
+from promptfort.judge import Judge, LLMJudge
+from promptfort.reporter import HTMLReporter
 
 
 async def main():

@@ -5,7 +5,7 @@ from datetime import datetime
 
 
 class HTMLReporter:
-    def __init__(self, title: str = "RedNeedle Security Assessment"):
+    def __init__(self, title: str = "PromptFort Security Assessment"):
         self.title = title
     
     def _severity_badge(self, severity: str) -> str:

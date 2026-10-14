@@ -30,7 +30,7 @@ PromptFort/
 │   └── library.yaml
 ├── prompts/
 │   └── example_system.txt
-├── redneedle/
+├── promptfort/
 │   ├── __init__.py
 │   ├── config.py
 │   ├── target.py
@@ -42,7 +42,7 @@ PromptFort/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-```
+```git status --short
 ```
 
 *Note: The package folder names shown above should match the actual names in your local repository.*
