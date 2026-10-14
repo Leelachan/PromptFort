@@ -1,0 +1,40 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+# Generated test reports and results
+report.html
+test_report.html
+full_report.html
+full_test_report.html
+verified_report.html
+
+results.json
+test_results.json
+full_results.json
+full_test_results.json
+verified_results.json
+# Python bytecode and temporary backup files
+__pycache__/
+*.pyc
+*.bak
